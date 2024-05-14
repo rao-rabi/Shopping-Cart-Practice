@@ -1,5 +1,5 @@
 let productListHTML = document.querySelector(".productList");
-
+console.log(productListHTML);
 let productList = [];
 
 /*
@@ -15,7 +15,6 @@ closeCart.onclick = () => {
   openCart.classList.remove("active");
 };
 */
-
 let addDataToHtml = () => {
   productListHTML.innerHTML = ''; 
   console.log(productList);
@@ -40,11 +39,11 @@ let addDataToHtml = () => {
   }
 };
 
-initApp = () => {
-  fetch('/JSON/products.json')
+const initApp = () => {
+  fetch("/JSON/products.json")
     .then(response => response.json())
     .then(data => {
-      productList = data;
+      productList = data.products;
       if (productList.length > 0) {
         addDataToHtml(data);
       } else {
@@ -59,3 +58,4 @@ initApp = () => {
 
 
 initApp();
+
