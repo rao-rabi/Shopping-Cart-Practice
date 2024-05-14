@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"  rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Cart</title>
+</head>
+
+<body class="bg-red-50 h-full">
+    <nav class="flex justify-between items-center px-10 py-2 bg-black text-white font-medium">
+        <a href="" class="logo text-xl italic text-black font-semibold rounded-full bg-red-50  py-2 px-3">HG</a>
+        <div class="">
+            <ul class="flex gap-12 ">
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Products</a>
+                </li>
+                <li>
+                    <a href="">Checkout</a>
+                </li>
+            </ul>
+        </div>
+        <div class="">
+            <ul class="flex gap-8">
+                <li>
+                    <i class="fa-solid fa-magnifying-glass text-xl"></i>
+                </li>
+                <li class="relative cursor-pointer" id="cart">
+                    <i class="fa-solid fa-cart-shopping text-xl"></i>
+                    <span class="absolute bottom-3 left-3 bg-white text-orange-400 px-2  rounded-full">0</span>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <main class="relative h-full">
+        <section class="container mx-auto  h-full">
+            <ul class="flex items-center py-10 productList">
+              
+            </ul>
+        </section>
+        <section id="shopping-cart" class="">
+            <div class="bg-red-100 text-black grid  grid-rows-[60px_minmax(auto,_1fr)_60px]  w-[350px] fixed top-[60px] right-0 bottom-0">
+                <div class=" font-semibold  text-lg uppercase border-t-2 bg-black text-white w-full text-center py-4"> Shopping
+                    Cart
+                </div>
+                <ul class="overflow-y-scroll">
+                    <li class="bg-white border-b-2 py-3 flex justify-between items-center gap-4 px-3">
+                        <img class="w-12" src="/Assets/product-1.png" alt="">
+                        <div>
+                            <div>Product Name</div>
+                            <div>200$</div>
+                        </div>
+
+                        <div class="flex gap-3 items-center">
+                            <span class="bg-red-100 text-black px-2 rounded-full font-semibold  border cursor-pointer"><
+                            </span>
+                            <span>1</span>
+                            <span
+                                class="bg-red-100 text-black px-2 rounded-full font-semibold cursor-pointer border">></span>
+                        </div>
+
+                        <span><i class="fa-solid fa-trash-can cursor-pointer"></i></span>
+                    </li>
+                </ul>
+                <div class="btns flex w-full">
+                    <button class="font-medium text-md uppercase bg-black text-white w-full text-center py-2 border-2"
+                        id="closebtn">Close</button>
+                    <button
+                        class="font-medium text-md uppercase bg-black text-white w-full text-center py-2 border-2">Checkout</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+
+</html>

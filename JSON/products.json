@@ -1,0 +1,76 @@
+{
+    "products": [
+      {
+        "image": "/Assets/product-1.png",
+        "name": "Blush Kit",
+        "price": 29.99,
+        "category": "Face"
+      },
+      {
+        "image":"/Assets/product-3.png",
+        "name": "Radiant Concealer",
+        "price": 18.50,
+        "category": "Face"
+      },
+      {
+        "image": "/Assets/product-8.png",
+        "name": "Shimmering Eyeshadow Palette",
+        "price": 34.95,
+        "category": "Eyes"
+      },
+      {
+        "image": "/Assets/product-6.png",
+        "name": "Red Shocking Lipstick",
+        "price": 19.99,
+        "category": "Eyes"
+      },
+      {
+        "image":"/Assets/product-3.png",
+        "name": "Precision brush",
+        "price": 14.99,
+        "category": "Eyes"
+      },
+      {
+        "image": "/Assets/product-6.png",
+        "name": "High-Shine Lip Gloss",
+        "price": 16.99,
+        "category": "Lips"
+      },
+      {
+        "image": "/Assets/product-2.png",
+        "name": "Natural Blush",
+        "price": 17.99,
+        "category": "Cheeks"
+      },
+      {
+        "image": "/Assets/product-4.png",
+        "name": "Sun-Kissed Bronzer",
+        "price": 24.50,
+        "category": "Cheeks"
+      },
+      {
+        "image": "/Assets/product-7.png",
+        "name": "Essential Makeup Brush Set",
+        "price": 39.99,
+        "category": "Tools"
+      }, {
+        "image": "/Assets/Luxury_perfume.png",
+        "name": "Enticing Eau de Parfum",
+        "price": 59.99,
+        "category": "Perfume"
+      },
+      {
+        "image": "/Assets/Luxury_perfume-bottle.png",
+        "name": "Fresh Eau de Toilette",
+        "price": 34.50,
+        "category": "Perfume"
+      },
+      {
+        "image": "/Assets/product-5.png",
+        "name": "Mysterious Eau de Parfum",
+        "price": 74.99,
+        "category": "Perfume"
+      }
+    ]
+  }
+  
